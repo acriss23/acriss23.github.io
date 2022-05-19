@@ -1,0 +1,265 @@
+/*Small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+	html {
+		max-width: 500px;
+	}
+	.horizontalnav li {
+		display: block;
+		width: 90%
+	}
+	h1 {
+		padding-bottom: 42px;
+	}
+	form {
+		width: 90%;
+	}
+}
+
+/*Medium devices (tablets, etc. 600px-992px)*/
+@media only screen and (min-width: 600px) {
+	html {
+		max-width: 750px;
+	}
+	.horizontalnav li {
+		display: block;
+		width: 90%
+	}
+	form {
+		width: 75%;
+	}	
+}
+
+/*Large devices (laptops, desktops, etc. 992px and up)*/
+@media only screen and (min-width: 992px) {
+	html {
+		max-width: 1280px;
+	}
+	.horizontalnav li {
+		display: inline-block;
+		width: 17%
+	}
+	.sticky {
+		position: sticky;
+		top: 0;
+		background-color: black;
+		border-bottom: 6px solid black;
+	}
+	form {
+		width: 50%;
+	}	
+}
+
+html {
+	margin: 0 auto;
+}
+body {
+	background-color: black;
+	background-image: radial-gradient(green, black);
+	font-family: verdana, arial, sans-serif;
+	line-height: 1.5;
+}
+h1 {
+	height: 85px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	background-color: #FCC201;
+	margin-bottom: 0px;
+}
+p {
+	background-color: #F5F5DC;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	display: block;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+ul, li {
+	margin: 0 0 0 0;
+	padding: 0 0 0 15px;
+	background-color: #F5F5DC;
+	list-style-position: inside;
+}
+ul {
+	border-left: 3px solid #FCC201;
+	border-bottom: 3px solid #FCC201;
+	border-right: 3px solid #FCC201;
+	border-top: 3px solid #FCC201;
+}
+footer {
+	text-align: center;
+	background-color: #F5F5DC;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	border-top: 6px solid black;	
+	border-top: 3px solid #FCC201;
+	border-left: 3px solid #FCC201;
+	border-bottom: 3px solid #FCC201;
+	border-right: 3px solid #FCC201;
+	margin-top: 24px;
+	bottom: 0%;
+}
+img {
+	border-left: 3px solid #FCC201;
+	border-bottom: 3px solid #FCC201;
+	min-width: 200px
+}
+img.logo {
+	height: 75px;
+	min-width: 75px;
+	float: left;
+}
+img.mapchart {
+	border-top: 3px solid #FCC201;
+	border-right: 3px solid #FCC201;
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+hr {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	border: 1px solid #FCC201;
+}
+form {
+	background-color: #F5F5DC;
+	margin: 0 auto;
+	padding: 12px;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+button {
+	background-color: green;
+	color: white;
+	text-align: center;
+	width: 150px;
+	padding: 12px;
+}
+button:hover {
+	background: #FCC201;
+	color: black;
+}
+label {
+	display: inline-block;
+	text-align: right;
+}
+input, textarea {
+	font-family: verdana, arial, sans-serif;
+	width: 90%;
+}
+textarea {
+	vertical-align: top;
+	height: 75px;
+}
+.right {
+	float: right;
+	font-size: 50%;
+	text-align: center;
+	margin-right: 3%;
+	margin-top: 6px;
+}
+.border {
+	border-left: 3px solid #FCC201;
+	border-bottom: 3px solid #FCC201;
+	border-right: 3px solid #FCC201;
+	border-top: 3px solid #FCC201;	
+}
+.center {
+	text-align: center;
+	scroll-margin-top: 10em;
+}
+.column-container {
+	display: inline-block;
+	width: 100%;
+}
+h3.green, h3.red {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+.float {
+	display: flow-root;
+	background-color: #F5F5DC;
+	border-left: 3px solid #FCC201;
+	border-bottom: 3px solid #FCC201;
+	border-right: 3px solid #FCC201;
+	border-top: 3px solid #FCC201;
+}
+.float img {
+	float: right;
+	width: 20%;
+	margin-left: 10px;
+}
+
+.grouppic img {
+	border: none;
+	margin: 0 auto;
+	float: none;
+	min-width: 75px;
+}
+
+.grouppic {
+	display: flex;
+	justify-content: space-between;
+}
+
+.green {
+	background-color: #013220;
+	border: 3px solid #FCC201;
+	text-align: center;
+	color: white;
+}
+.red {
+	background-color: red;
+	border: 3px solid #FCC201;
+	text-align: center;
+	color: white;
+}
+.greencolumn {
+	float: left;
+	width: 49%;
+}
+.redcolumn {
+	float: right;
+	width: 49%;
+}
+.horizontalnav {
+	left: 0;
+	right: 0;
+	border-left: 3px solid #FCC201;
+	border-bottom: 3px solid #FCC201;
+	border-right: 3px solid #FCC201;
+	border-top: 3px solid #FCC201;
+}
+.horizontalnav a {
+	padding: 2px 12px 3px 12px;
+	display: flex;
+	justify-content: center;
+}
+.horizontalnav li a:link, a:visited, a:focus {
+	background: #F5F5DC;
+	color: black;
+	text-decoration: none;
+}
+.horizontalnav li a:hover {
+	background: #FCC201;
+}
+.horizontalnav li a:active {
+	background: red;
+	color: white;
+}
+.warning {
+	color: red;
+	font-weight: bold;
+}
+p a:link, #advisory a:link  {
+	color: blue;
+}
+p a:visited, #advisory a:visited  {
+	color: purple;
+}
